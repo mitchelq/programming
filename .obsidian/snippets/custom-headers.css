@@ -1,0 +1,91 @@
+.markdown-preview-view h2,
+.cm-header-2 {
+  color: #746174;
+  font-style: italic !important;
+}
+
+.markdown-preview-view h4,
+.cm-header-4 {
+  color: #750375;
+}
+
+.markdown-preview-view h5,
+.cm-header-5 {
+  color: #444444;
+}
+
+/* Code block styling for both edit and preview mode */
+.cm-s-obsidian pre.HyperMD-codeblock,
+.markdown-preview-view pre[class*="language-"],
+.cm-s-obsidian span.cm-inline-code,
+.cm-s-obsidian
+  span.cm-math:not(.cm-formatting-math-begin):not(.cm-formatting-math-end),
+.cm-s-obsidian
+  span.cm-inline-math:not(.cm-formatting-math-begin):not(
+    .cm-formatting-math-end
+  ) {
+  background-color: #c2c2c2;
+  color: #330000;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Padding for code blocks */
+/* .cm-s-obsidian pre.HyperMD-codeblock,
+.markdown-preview-view pre[class*="language-"] {
+  padding: 16px;
+} */
+
+/* Inline code styling for both edit and preview mode */
+/* .cm-s-obsidian span.cm-inline-code,
+.markdown-preview-view code:not(pre code),
+.cm-s-obsidian
+  span.cm-math:not(.cm-formatting-math-begin):not(.cm-formatting-math-end),
+.cm-s-obsidian
+  span.cm-inline-math:not(.cm-formatting-math-begin):not(
+    .cm-formatting-math-end
+  ) {
+  padding: 2px 4px;
+  background-color: #1e1e1e;
+  color: #e83e8c;
+} */
+
+/* Syntax highlighting for code blocks in edit mode */
+/* .cm-s-obsidian span.cm-keyword,
+.cm-s-obsidian span.cm-operator {
+  color: #569cd6;
+} */
+
+/* .cm-s-obsidian span.cm-variable-2,
+.cm-s-obsidian span.cm-variable-3 {
+  color: #4ec9b0;
+} */
+
+/* .cm-s-obsidian span.cm-string {
+  color: #ce9178;
+}
+
+.cm-s-obsidian span.cm-comment {
+  color: #6a9955;
+} */
+
+/* Improve visibility of code block boundaries in edit mode */
+/* .cm-s-obsidian pre.HyperMD-codeblock {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+} */
+
+/* Language indicator for code blocks (preview mode only) */
+/* .markdown-preview-view pre[class*="language-"]::before {
+  content: attr(class);
+  background: #4a4a4a;
+  color: #ffffff;
+  padding: 3px 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 4px;
+} */
